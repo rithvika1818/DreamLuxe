@@ -38,9 +38,11 @@
 
                 <div class="form">
                     <h2>Login Here</h2>
-                    <input type="email" name="email" placeholder="Enter your Email">
-                    <input type="password" name="" placeholder="Enter your Password">
-                    <button class="btnn"><a href="#">Login</a></button>
+                    <form action="#" method="post" onsubmit="return validateForm()">
+                        <input type="email" name="email" placeholder="Enter your Email" required>
+                        <input type="password" name="password" placeholder="Enter your Password" required>
+                        <button class="btnn"><a href="#">Login</a></button>
+                    </form>
 
                     <p class="link">Don't have an account?<br>
                     <a href="#"><u>Register</u></a> here</a></p>
